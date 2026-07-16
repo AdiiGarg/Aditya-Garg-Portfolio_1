@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Aditya Garg — CSE Student &amp; Developer</title>
+<title>Aditya Garg | Portfolio</title>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;700&family=Inter:wght@400;500;600&display=swap');
@@ -40,7 +40,7 @@ body{
   position:fixed;top:0;left:0;pointer-events:none;z-index:9999;
   border-radius:50%;transform:translate(-50%,-50%);
 }
-.cursor-dot{width:6px;height:6px;background:var(--cyan);box-shadow:0 0 12px var(--cyan);}
+.cursor-dot{width:6px;height:6px;background:var(--cyan);box-shadow:0 0 8px var(--cyan);}
 .cursor-ring{
   width:34px;height:34px;border:1px solid rgba(79,216,255,0.5);
   transition:width .25s,height .25s,border-color .25s,background .25s;
@@ -337,9 +337,9 @@ footer{padding:34px 6vw;border-top:1px solid var(--border);display:flex;justify-
 
       <div class="pcard reveal">
         <div class="pcard-tag">MORE BUILDS</div>
-        <div class="pcard-title">Academic Builds &amp; Clippy.ai</div>
+        <div class="pcard-title">Academic Builds &amp; more</div>
         <div class="pcard-desc">A set of core-CS mini projects — Metro Navigator, Smart Inventory Manager, Online Job Portal, a Personal CLI Assistant, Student Study-Buddy — plus <strong>Clippy.ai</strong>, and more.</div>
-        <div class="pcard-stack"><span>C</span><span>C++</span><span>Java</span><span>UNIX</span></div>
+        <div class="pcard-stack"><span>C</span><span>C++</span><span>Python</span><span>Java</span><span>UNIX</span></div>
         <div class="pcard-term">
           <div class="dim">$ make all</div>
           <div>&gt; metro_navigator.cpp <span class="ok">compiled</span></div>
@@ -366,7 +366,7 @@ footer{padding:34px 6vw;border-top:1px solid var(--border);display:flex;justify-
   </section>
 
   <footer>
-    <span>© 2026 Aditya Garg</span>
+    <span>© Aditya Garg</span>
     <span>Built with obsessive attention to detail</span>
   </footer>
 
@@ -544,7 +544,7 @@ let W,H, particles=[];
 function resizeBG(){ W=bgCanvas.width=window.innerWidth; H=bgCanvas.height=window.innerHeight; }
 resizeBG(); window.addEventListener('resize', resizeBG);
 
-const PCOUNT = Math.min(90, Math.floor(window.innerWidth/16));
+const PCOUNT = Math.min(60, Math.floor(window.innerWidth/20));
 for(let i=0;i<PCOUNT;i++){
   particles.push({
     x:Math.random()*W, y:Math.random()*H,
